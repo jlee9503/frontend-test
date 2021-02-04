@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/header.css";
-import "../../styles/mediaQueries.css";
+import "../../styles/style.css";
 import "./NavMenuData.js";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";

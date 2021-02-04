@@ -1,0 +1,15 @@
+.product {
+	text-align: center;
+	background-color: var(--white);
+	margin: 10px 0;
+	padding: 50px 0 40px 0;
+}
+
+.product__info {
+	padding: 0 20px;
+	margin-top: 50px;
+}
+
+.title {
+	margin-bottom: 20px;
+}

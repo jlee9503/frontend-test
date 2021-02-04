@@ -1,5 +1,14 @@
+@import "variables.css";
 @import "header.css";
 @import "content.css";
+@import "product.css";
+
+/* Mobile Padding for Content section */
+@media screen and (max-width: 500px) {
+	.welcome__text {
+		padding: 0 40px;
+	}
+}
 
 /* Desktop, Tablet */
 @media screen and (min-width: 1000px) {
@@ -56,4 +65,29 @@
 	}
 
 	/* Content */
+	.content__container {
+		padding: var(--padding_global) 100px 130px 100px;
+	}
+
+	.welcome__text {
+		margin-bottom: 200px;
+	}
+
+	.welcome__text > h1 {
+		font-size: 60px;
+	}
+
+	.welcome__text > p {
+		font-size: 20px;
+	}
+
+	.product__row {
+		flex-direction: row;
+	}
+
+	/* Product */
+	.product {
+		margin: 0 40px;
+		padding: 100px 0 60px 0;
+	}
 }

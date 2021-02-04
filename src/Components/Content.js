@@ -1,13 +1,23 @@
 import React from "react";
-import "../styles/content.css";
-import "../styles/mediaQueries.css";
+import "../styles/style.css";
+import Product from "./Product";
 
 function Content() {
 	return (
 		<div className="content__container">
-			<div className="welcome__context">
+			<div className="welcome__text">
 				<h1>Hi, User!</h1>
-				<h3>Color </h3>
+				<p>
+					Color really isn't that difficult to get right if you know where to
+					start
+				</p>
+				<p>Learn by doing and you'll be a master in no time</p>
+			</div>
+
+			<div className="product__row">
+				<Product />
+				<Product />
+				<Product />
 			</div>
 		</div>
 	);

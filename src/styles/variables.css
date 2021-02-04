@@ -1,9 +1,9 @@
 :root {
-  /* Layout */
+	/* Layout */
 	--padding_global: 18px;
 	/* Colors */
 	--skyBlue: rgb(0, 195, 255);
-	--navBackground: rgba(0, 0, 0, 0.8);
+	--navBackground: rgba(0, 0, 0);
 	--white: rgb(255, 255, 255);
-	--black: rgb(0, 0, 0);
+	--lightBlue: rgb(240, 248, 255);
 }
