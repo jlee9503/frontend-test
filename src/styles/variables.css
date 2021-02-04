@@ -1,0 +1,7 @@
+:root {
+  /* Colors */
+	--skyBlue: rgb(0, 195, 255);
+	--navBackground: rgba(0, 0, 0, 0.8);
+	--fontWhite: rgb(255, 255, 255);
+	--fontBlack: rgb(0, 0, 0);
+}

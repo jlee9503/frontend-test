@@ -1,0 +1,54 @@
+@import "header.css";
+@import "content.css";
+
+/* Desktop, Tablet */
+@media screen and (min-width: 1000px) {
+  /* Header */
+	.header__container {
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	.navIcon {
+		width: fit-content;
+		justify-content: flex-start;
+	}
+
+	.logo__mobile {
+		width: 180.64px;
+		height: 50px;
+	}
+
+	.menuIcon {
+		display: none;
+	}
+
+	.navMenu {
+		display: flex;
+	}
+
+	.navMenu__list {
+		text-align: left;
+		flex-direction: row;
+		width: 50%;
+		height: fit-content;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 20px;
+	}
+
+	.navLink {
+		color: var(--skyBlue);
+	}
+
+	.navLink::before {
+		background-color: var(--skyBlue);
+	}
+
+	.loginBtn {
+		margin: 0;
+  }
+  
+  /* Content */
+}
