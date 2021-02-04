@@ -3,7 +3,7 @@
 
 /* Desktop, Tablet */
 @media screen and (min-width: 1000px) {
-  /* Header */
+	/* Header */
 	.header__container {
 		flex-wrap: nowrap;
 		justify-content: space-between;
@@ -17,6 +17,7 @@
 	.logo__mobile {
 		width: 180.64px;
 		height: 50px;
+		margin-top: -2px;
 	}
 
 	.menuIcon {
@@ -27,6 +28,10 @@
 		display: flex;
 	}
 
+	.navMenu__active {
+		display: none;
+	}
+
 	.navMenu__list {
 		text-align: left;
 		flex-direction: row;
@@ -35,7 +40,7 @@
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
-		margin-top: 20px;
+		margin-top: 16px;
 	}
 
 	.navLink {
@@ -48,7 +53,7 @@
 
 	.loginBtn {
 		margin: 0;
-  }
-  
-  /* Content */
+	}
+
+	/* Content */
 }

@@ -1,0 +1,10 @@
+.content__container {
+	width: 100%;
+	height: 100vh;
+	padding: var(--padding_global);
+	background: linear-gradient(
+		180deg,
+		var(--skyBlue) 50%,
+		var(--white) 50%
+	);
+}
