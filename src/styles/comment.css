@@ -1,0 +1,56 @@
+.comment__container {
+	padding: 28px 28px 100px 28px;
+	background: linear-gradient(180deg, var(--lightBlue) 30%, var(--skyBlue));
+}
+
+.comment__box {
+	background-color: var(--white);
+	padding: 25px;
+}
+
+.comment__box > h2 {
+	margin-bottom: 57px;
+	color: var(--blueGrey);
+}
+
+.comment__info {
+	margin-bottom: 40px;
+}
+
+.name {
+	margin-bottom: 13px;
+	color: var(--blue);
+}
+
+.email {
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.comment {
+	padding: 20px;
+	border: 1px solid;
+	background-color: var(--lightGrey);
+}
+
+.likeBtn {
+	color: var(--btnBlue);
+	margin-top: 10px;
+}
+
+.thumbsup,
+.thumbsdown {
+	cursor: pointer;
+}
+
+.endCommentMsg {
+	text-align: center;
+}
+
+.showMoreBtn {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	text-decoration: underline;
+	color: var(--blueGrey);
+}

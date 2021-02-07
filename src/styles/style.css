@@ -2,6 +2,7 @@
 @import "header.css";
 @import "content.css";
 @import "product.css";
+@import "comment.css";
 
 /* Mobile Padding for Content section */
 @media screen and (max-width: 500px) {
@@ -89,5 +90,38 @@
 	.product {
 		margin: 0 40px;
 		padding: 100px 0 60px 0;
+	}
+
+	/* Comment */
+	.comment__container {
+		padding: var(--padding_global) 150px 100px 150px;
+		background: linear-gradient(180deg, var(--lightBlue) 30%, var(--skyBlue));
+	}
+
+	.comment__box {
+		background-color: var(--white);
+		padding: 70px;
+	}
+
+	.comment__box > h2 {
+		margin-bottom: 80px;
+	}
+
+	.comment__info {
+		margin-bottom: 40px;
+	}
+
+	.name {
+		margin-bottom: 13px;
+	}
+
+	.email {
+		font-weight: 400;
+		font-size: 12px;
+	}
+
+	.comment {
+		padding: 20px;
+		border: 1px solid;
 	}
 }
