@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "../styles/style.css";
+import "../../styles/style.css";
 import ChatRoundedIcon from "@material-ui/icons/ChatRounded";
 import LikeButton from "./LikeButton";
 

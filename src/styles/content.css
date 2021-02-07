@@ -24,8 +24,6 @@
 	text-align: center;
 }
 
-.product__row {
-	display: flex;
-	flex-direction: column;
+.product__section {
 	padding: 0 10px;
 }

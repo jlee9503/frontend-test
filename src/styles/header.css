@@ -3,6 +3,7 @@
 	flex-wrap: wrap;
 	padding: var(--padding_global);
 	position: relative;
+	box-shadow: 3px 8px 30px rgb(100, 149, 237);
 }
 
 .navIcon {

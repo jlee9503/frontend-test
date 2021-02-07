@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "../../styles/style.css";
-import "./NavMenuData.js";
 import { GoogleLogin, GoogleLogout } from "react-google-login";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
-import { NavMenuData } from "./NavMenuData.js";
-import Content from "../Content";
+import { NavMenuData } from "./navMenuData.js";
+import Content from "../Content/Content";
 
 function Header() {
 	const [click, setClick] = useState(false);
@@ -48,7 +47,7 @@ function Header() {
 	};
 
 	return (
-		<div>
+		<div className="wrapper">
 			<div className="header__container">
 				<div className="navIcon">
 					<Link to="/">

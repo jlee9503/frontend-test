@@ -1,13 +1,28 @@
-.product {
+.product__container {
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.productImg {
+	object-fit: contain;
+	min-height: 50px;
+	min-width: 50px;
+}
+
+.product {
 	background-color: var(--white);
 	margin: 10px 0;
 	padding: 50px 0 40px 0;
+	width: 100%;
+	box-shadow: 3px 8px 30px rgb(100, 149, 237);
 }
 
 .product__info {
 	padding: 0 20px;
 	margin-top: 50px;
+	width: 100%;
 }
 
 .title {

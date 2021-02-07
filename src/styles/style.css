@@ -82,14 +82,19 @@
 		font-size: 20px;
 	}
 
-	.product__row {
+	/* Product */
+	.product__container {
 		flex-direction: row;
 	}
 
-	/* Product */
 	.product {
 		margin: 0 40px;
 		padding: 100px 0 60px 0;
+	}
+
+	.productImg {
+		min-height: 90px;
+		min-width: 60px;
 	}
 
 	/* Comment */
