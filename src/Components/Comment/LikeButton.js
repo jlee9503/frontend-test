@@ -9,12 +9,12 @@ const likeBtnStyle = {
 
 function LikeButton() {
 	// Randomly assign number of likes and dislikes
-	let randomLikes = Math.floor(Math.random() * 150);
-	let randomDislikes = Math.floor(Math.random() * 150);
+	// let randomLikes = Math.floor(Math.random() * 150);
+	// let randomDislikes = Math.floor(Math.random() * 150);
 
 	const [likeBtn, setLikeBtn] = useState({
-		likes: randomLikes,
-		dislikes: randomDislikes,
+		likes: 0,
+		dislikes: 0,
 	});
 	const countLikes = () => {
 		setLikeBtn({
@@ -32,13 +32,13 @@ function LikeButton() {
 	return (
 		<div className="likeBtn">
 			<p>
-				{likeBtn.likes}
+				<span className="numLikes">{likeBtn.likes}</span>
 				<ThumbUpIcon
 					style={likeBtnStyle}
 					onClick={countLikes}
 					className="thumbsup"
 				/>
-				{likeBtn.dislikes}
+				<span className="numDislikes">{likeBtn.dislikes}</span>
 				<ThumbDownIcon
 					style={likeBtnStyle}
 					onClick={countDislikes}
